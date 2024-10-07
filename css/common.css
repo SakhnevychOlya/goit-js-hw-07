@@ -4,8 +4,7 @@
 
 body {
   margin: 16px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #fafafa;
@@ -19,24 +18,28 @@ body {
 }
 
 .item {
-  background-color: #d9e8f1;
-  border-radius: 3px;
+  font-family: "Montserrat" ;
+  background-color: #F6F6FE;
+  border-radius: 8px;
   margin-bottom: 20px;
-  padding: 20px;
+  padding: 16px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 392px;
   
 }
 
 h2 {
-  font-family: "Roboto";
-  font-size: 20px;
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 24px;
   margin-top: 0;
   margin-bottom: 15px;
   color: #2e2f42;
   font-style: normal;
   font-weight: 600;
-  line-height: 32px;
-
+  line-height: 133%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
 }
 
 ul {
@@ -48,15 +51,18 @@ ul {
 }
 
 li {
-  font-family: "Roboto";
+  font-family: "Montserrat";
   background-color: #f6f6fe;
   border: 1px solid #080d70;
   border-radius: 4px;
   padding: 10px;
   margin-bottom: 15px;
+  font-weight: 400;
   font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
   color: #2e2f42;
-  max-width: 250px;
+  
 }
 
 .gallery {
@@ -66,9 +72,7 @@ li {
   list-style: none;
   padding: 0;
   margin: 0;
-}
-.gallery-item:hover {
-scale: 110%;
+
 }
 .gallery-item {
   flex-basis: calc(33.333% - 16px);
@@ -86,17 +90,17 @@ scale: 110%;
   padding: 10px;
   font-size: 16px;
   border-radius: 4px;
-  border: 1px solid #5846bb;
+  border: 1px solid #3f3c4e;
   margin-bottom: 20px;
 }
 
 #name-input::placeholder {
-  color: #363a77;
+  color: 2E2F42;
 }
 
 h1 {
   font-size: 24px;
-  color: #3b409c;
+  color: 2E2F42;
   margin: 0;
 }
 
@@ -113,7 +117,7 @@ label {
   margin-bottom: 8px;
   font-weight: normal;
   font-size: 14px;
-  color: #3f21c7;
+  color: #2e2f42;;
 }
 
 input[type="email"],
@@ -122,7 +126,7 @@ input[type="password"] {
   padding: 8px;
   margin-bottom: 16px;
   border: 1px solid #808080;
-  border-radius: 8px;
+  border-radius: 4px;
   box-sizing: border-box;
   font-size: 14px;
 }
@@ -150,11 +154,11 @@ button {
   letter-spacing: 0.64px;
   transition: background-color 0.3s;
   color: white;
-  background-color: #1606aa;
+  background-color: #4e75ff;;
 }
 
 button:hover {
-  background-color: #3954cf;
+  background-color: #6c8cff;
 }
 
 .widget {
@@ -192,11 +196,11 @@ input[type="number"] {
 }
 
 button[data-destroy] {
-  background-color: #ca1414;
+  background-color: #ff4e4e;
 }
 
 button[data-destroy]:hover {
-  background-color: #ee6b6b;
+  background-color: #ff7070;
 }
 
 #boxes {
