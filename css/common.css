@@ -1,0 +1,213 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fafafa;
+  color: #212121;
+  line-height: 1.5;
+}
+
+#categories {
+  list-style-type: none;
+  padding: 0;
+}
+
+.item {
+  background-color: #d9e8f1;
+  border-radius: 3px;
+  margin-bottom: 20px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  
+}
+
+h2 {
+  font-family: "Roboto";
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 15px;
+  color: #2e2f42;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+
+}
+
+ul {
+  display: block;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  font-family: "Roboto";
+  background-color: #f6f6fe;
+  border: 1px solid #080d70;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  color: #2e2f42;
+  max-width: 250px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.gallery-item:hover {
+scale: 110%;
+}
+.gallery-item {
+  flex-basis: calc(33.333% - 16px);
+}
+
+.gallery-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+#name-input {
+  width: 300px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid #5846bb;
+  margin-bottom: 20px;
+}
+
+#name-input::placeholder {
+  color: #363a77;
+}
+
+h1 {
+  font-size: 24px;
+  color: #3b409c;
+  margin: 0;
+}
+
+#name-output {
+  font-weight: 600;
+}
+
+.login-form {
+  width: 300px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: normal;
+  font-size: 14px;
+  color: #3f21c7;
+}
+
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #808080;
+  border-radius: 8px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+input[type="email"]:hover,
+input[type="password"]:hover {
+  border-color: #000000;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+  border-color: #2e2f42;
+  outline: none;
+}
+
+button {
+  width: auto;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.64px;
+  transition: background-color 0.3s;
+  color: white;
+  background-color: #1606aa;
+}
+
+button:hover {
+  background-color: #3954cf;
+}
+
+.widget {
+  text-align: left;
+}
+
+p {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #333333;
+}
+
+.color {
+  font-weight: normal;
+}
+
+#controls {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  background-color: #f6f6fe;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+input[type="number"] {
+  width: 150px;
+  height: 40px;
+  padding: 5px 10px;
+  font-size: 16px;
+  border: 1px solid #808080;
+  border-radius: 8px;
+  background-color: #f6f6fe;
+  text-align: center;
+}
+
+button[data-destroy] {
+  background-color: #ca1414;
+}
+
+button[data-destroy]:hover {
+  background-color: #ee6b6b;
+}
+
+#boxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 44px;
+  padding: 20px;
+  background-color: #f6f6fe;
+  border-radius: 8px;
+}
+
+#boxes div {
+  border-radius: 4px;
+}
